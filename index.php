@@ -47,5 +47,43 @@ echo $result6;
 //  <   $x < $y     Agar $x $y dan kichik bo'lsa, true qiymatini qaytaradi
 //  >=  $x >= $y    Agar $x $y dan katta yoki teng bo'lsa, true qiymatini qaytaradi
 //  <=  $x <= $y    $x $y dan kichik yoki teng bo'lsa, true qiymatini qaytaradi
+?>
+
+
+<?php
+// Mantiqiy operatorlar
+$x = 100;  
+$y = 50;
+
+// $x and $y  To'g'ri, agar $x va $y to'g'ri bo'lsa
+if ($x == 100 and $y == 50) {
+    echo "Hello world!";
+}
+
+// 	$x or $y  To'g'ri, agar $x yoki $y rost bo'lsa
+if ($x == 100 or $y == 80) {
+    echo "Hello world!";
+}
+
+// $x xor $y  To'g'ri, agar $x yoki $y rost bo'lsa, lekin ikkalasi ham emas
+if ($x == 100 xor $y == 80) {
+    echo "Hello world!";
+}
+
+// $x && $y To'g'ri, agar $x va $y to'g'ri bo'lsa
+if ($x == 100 && $y == 50) {
+    echo "Hello world!";
+}
+
+// $x || $y  To'g'ri, agar $x yoki $y rost bo'lsa
+if ($x == 100 || $y == 80) {
+    echo "Hello world!";
+}
+
+// 	!$x  To'g'ri, agar $x to'g'ri bo'lmasa
+if (!($x == 90)) {
+    echo "Hello world!";
+}
+
 
 ?>
