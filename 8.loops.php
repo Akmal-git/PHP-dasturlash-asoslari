@@ -70,7 +70,7 @@ for ($x = 0; $x <= 10; $x++) {
 };
 // Ushbu misol 100 ga o'nlab sanaladi:
 for ($x = 0; $x <= 100; $x += 10) {
-    echo "The number is: $x <br>";
+    echo "The number is: $x <br>";  
 }
 // ---------------------------------------------------------------------------------
 //             forich 
