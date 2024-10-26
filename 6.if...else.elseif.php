@@ -23,7 +23,7 @@ if ($x == 10) {
     echo "X katta emas Y dan";
 } elseif ($x < $y) {
     echo "Y katta X dan";
-} else {
+} else { 
     echo " X teng emas 10 ga";
 }
 ?>

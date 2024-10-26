@@ -22,7 +22,7 @@ switch ($favcolor) {
     case "green";
         echo "Your favorite color green!";
         break;
-    default:
+    default: 
         echo "Your favorite color is neither red, blue, nor green!";
 }
 ?>

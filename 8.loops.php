@@ -107,8 +107,8 @@ foreach ($colors as $x) {
 }
 // Ekranga blue rangini chiqarmay tashlab ketadi
 $colors = array("red", "green", "blue", "yellow");
-foreach ($colors as $x) {
-    if ($x == "blue") continue;
+foreach ($colors as $x) {  
+    if ($x == "blue") continue; 
     echo "$x <br>";
 }
 // $colors dagi blue rangni o'rniga pink ga o'zgartirish & belgi ishlatilishi shart
