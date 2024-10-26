@@ -26,4 +26,4 @@ if ($x == 10) {
 } else { 
     echo " X teng emas 10 ga";
 }
-?>
+?> 
