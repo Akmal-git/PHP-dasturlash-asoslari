@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="uz">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML5 Namuna</title>
-</head>
-<body>
-   
-</body>
-</html>
+<?php
+$name = "Akmal";
+$car = "KIA 5"
+
+?>
+
+<?php require '14.include.require.php' ?>
+<!-- include va require yordamidaboshqa saxifadagi 
+ o'zgaruvchini chaqirib kelib ishlatsa bo'ladi 
+ require inculde qaraganda xafsizroq va require chaqirishda xatolik ketsa 
+ o'zidan keyingi kod ishlamaydi
+ include esa xatolik ketsa ham o'zidan keyingi kod ishlayveradi
+ -->
