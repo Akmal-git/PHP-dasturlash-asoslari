@@ -16,5 +16,5 @@ a - am or pm
 
 */
 echo date('Y.m.d');
-echo date("H : i : s")
+echo date("H : i : s") 
 ?>
